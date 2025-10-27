@@ -1,8 +1,8 @@
-## Télécharger le projet complet
+# Télécharger le projet complet
 Le projet complet, incluant les données volumineuses et une vidéo de démonstration du frontend, est disponible ici :   
 https://drive.google.com/drive/folders/1YcKIlMBv5kpVM9dFKDSq-c8jIl7i2SC3?usp=sharing
 
-## ⚠️ Note Importante
+# ⚠️ Note Importante
 
 Cette version du projet est une **version de test** du système d'agent de réservation hôtelière.  
 Elle est fournie **à des fins de démonstration et d'expérimentation** uniquement, avant l'intégration finale avec Twilio et d'autres services en production.  
@@ -99,23 +99,24 @@ Backend robuste et système d'IA intelligent pour la gestion hôtelière automat
   - Clé API OpenAI
 
 ### Installation
-  # Cloner le repository
+  ## Cloner le repository
   git clone https://github.com/hajarelkamri/Ai-Agent
+  
   cd hotelai-backend
   
-  # Créer environnement virtuel
+  ## Créer environnement virtuel
   python -m venv venv
   source venv/bin/activate  # Linux/Mac
-  # ou
+  ### ou
   venv\Scripts\activate     # Windows
   
-  # Installer les dépendances
+  ## Installer les dépendances
   pip install -r requirements.txt
   
-  # Démarrage
+  ## Démarrage
   uvicorn app.main:app --reload --host 0.0.0.0 --port 8080
 
-# Workflow de Réservation IA
+## Workflow de Réservation IA
   Réception audio → Fichier WAV temporaire
   
   Transcription → Texte avec Whisper
@@ -132,8 +133,8 @@ Backend robuste et système d'IA intelligent pour la gestion hôtelière automat
   
   Réponse audio → Synthèse dans la langue appropriée
   
-# Fonctionnalités Avancées
-  # Gestion de Session
+## Fonctionnalités Avancées
+  ## Gestion de Session
     Contexte maintenu par session ID
     
     Détection et mémorisation de la langue
@@ -146,7 +147,7 @@ Backend robuste et système d'IA intelligent pour la gestion hôtelière automat
     Conversion des dates (formats variés → ISO)
     
     Interprétation des nombres (texte → chiffres)
-  # Gestion d'Erreurs
+  ## Gestion d'Erreurs
     Fallback multilingue pour les erreurs
     
     Reconnaissance des requêtes incomplètes
@@ -186,7 +187,7 @@ Interface d'administration moderne pour la gestion hôtelière, développée ave
   
 ## Interface Utilisateur
   Pages Principales: 
-  # Login (/login)
+  ### Login (/login)
   
   Design moderne avec fond d'écran
   
@@ -194,7 +195,7 @@ Interface d'administration moderne pour la gestion hôtelière, développée ave
   
   Gestion des erreurs
   
-  # Admin (/admin)
+  ## Admin (/admin)
   
   Tableau de gestion des hôtels
   
@@ -202,7 +203,7 @@ Interface d'administration moderne pour la gestion hôtelière, développée ave
   
   Actions rapides (activer/supprimer)
   
-  # Dashboard Hôtel (/hotel/dashboard)
+  ## Dashboard Hôtel (/hotel/dashboard)
   
   Widgets statistiques (chambres, réservations, occupation)
   
@@ -210,7 +211,7 @@ Interface d'administration moderne pour la gestion hôtelière, développée ave
   
   Design responsive
   
-  # Gestion Chambres (/hotel/rooms)
+  ## Gestion Chambres (/hotel/rooms)
   
   Édition du stock (simple, double, triple)
   
@@ -218,7 +219,7 @@ Interface d'administration moderne pour la gestion hôtelière, développée ave
   
   Tableaux interactifs
   
-  # Réservations (/hotel/reservations)
+  ## Réservations (/hotel/reservations)
   
   Liste des réservations en cours
   
@@ -226,7 +227,7 @@ Interface d'administration moderne pour la gestion hôtelière, développée ave
   
   Design tableau clair
   
-  # Historique (/hotel/history)
+  ## Historique (/hotel/history)
   
   Journal des actions
   
