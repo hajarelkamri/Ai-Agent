@@ -2,6 +2,14 @@
 Le projet complet avec des données volumineuses est disponible ici : 
 https://drive.google.com/drive/folders/1YcKIlMBv5kpVM9dFKDSq-c8jIl7i2SC3?usp=sharing
 
+## ⚠️ Note Importante
+
+Cette version du projet est une **version de test** du système d'agent de réservation hôtelière.  
+Elle est fournie **à des fins de démonstration et d'expérimentation** uniquement, avant l'intégration finale avec Twilio et d'autres services en production.  
+La version finale, complète et connectée à Twilio, ne peut pas être partagée publiquement pour des raisons de confidentialité, car ce projet a été développé dans le cadre d'une **mission freelance professionnelle**.  
+Merci pour votre compréhension.
+
+
 **Révolutionnez l'expérience client avec notre solution hôtelière IA**
 
 Système de gestion complet avec assistant vocal intelligent permettant aux clients de réserver par la voix dans leur langue natale, tandis que les hôteliers bénéficient d'un dashboard moderne pour gérer stocks, réservations et statistiques.
