@@ -1,5 +1,5 @@
 ## Télécharger le projet complet
-Le projet complet avec des données volumineuses est disponible ici : 
+Le projet complet, incluant les données volumineuses et une vidéo de démonstration du frontend, est disponible ici :   
 https://drive.google.com/drive/folders/1YcKIlMBv5kpVM9dFKDSq-c8jIl7i2SC3?usp=sharing
 
 ## ⚠️ Note Importante
